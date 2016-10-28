@@ -1,0 +1,202 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 21px;
+  background: #298eea;
+  color: #fff;
+}
+
+h1 {
+  line-height: 45px;
+  vertical-align: middle;
+}
+
+h1 img {
+  width: 50px;
+  height: 45px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+a {
+  color: #fff;
+  transition: all 180ms ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+}
+
+.social {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  font-size: 30px;
+  margin: 1em 0;
+}
+
+.social li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.root {
+  margin: 1em 0;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.variants {
+  color: #000;
+  background: #fcfcfc;
+  border: 1px solid #ebeef0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+  padding: 10px 10px 0;
+}
+
+.variants-options {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.variants th {
+  text-align: left;
+}
+
+.variants td {
+  color: #929292;
+}
+
+.variants th,
+.variants td {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.variants-option-name {
+  width: 30%;
+}
+
+.variants-option-name input {
+  width: 100%;
+  font-size: 14px;
+  line-height: 35px;
+  padding: 0 8px;
+}
+
+.variants-option-values {
+  width: 70%;
+}
+
+.variants-option-values ul {
+  border: 1px solid #ebeef0;
+  border-radius: 4px;
+  background: #fff;
+  overflow: hidden;
+  margin: 0;
+  padding: 3px 0 0 3px;
+  cursor: text;
+}
+
+.variants-option-values li {
+  display: block;
+  float: left;
+  border-radius: 4px;
+  color: #fff;
+  padding: 4px 8px;
+  margin: 0 3px 3px 0;
+}
+
+.variants-add-option {
+  cursor: pointer;
+  background: #28cb75;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 15px 8px 36px;
+  display: inline-block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.variants-add-option:hover {
+  background: #0cb863;
+}
+
+.variants-add-option .add-icon {
+  position: absolute;
+  top: 0;
+  left: 11px;
+  font-size: 22px;
+  line-height: 37px;
+}
+
+.variants input[type=text] {
+  border: 1px solid #ebeef0;
+  border-radius: 4px;
+  outline: 0;
+}
+
+.variants-option-values input[type="text"] {
+  border: 0;
+  display: block;
+  float: left;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.variants-product {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.variants-product input[type="text"] {
+  font-size: 14px;
+  line-height: 35px;
+  padding: 0 8px;
+  width: 100%;
+}
+
+.variants-option-value-remove {
+  color: #fff;
+  margin-left: 7px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+
+.variants-option-value-label {
+  display: block;
+  float: left;
+}
+
+.variants-option-remove {
+  cursor: pointer;
+  color: #3190e7;
+  font-size: 20px;
+}
+
+.variants-option-remove:hover {
+  color: #2d7ec7;
+}

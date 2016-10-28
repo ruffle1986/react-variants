@@ -1,0 +1,11 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "pi",
+    "pi/es6",
+    "pi/react"
+  ]
+}
